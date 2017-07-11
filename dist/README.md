@@ -40,6 +40,17 @@ Add it to your @NgModule imports-
 })
 ```
 
+## Usage
+```
+<tabs>
+  <tab tabTitle="Foo>
+    I am the foo content
+  </tab>
+  <tab tabTitle="Bar">
+    I am the bar content
+  </tab>
+<tabs>
+```
 ## What's next
 I would always love to hear suggestions for features & improvements - just open an issue.
 
