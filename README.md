@@ -15,8 +15,6 @@ If you like this, support the project by starring it!
 ## Angular supported version
 angular-tabs-component supports angular 2.X.X releases, 4.X.X releases, and AoT compilation.
 
-## Getting started, demo & full documentation
-
 ## Example
 To install the library:
 ```
@@ -42,8 +40,19 @@ Add it to your @NgModule imports-
 })
 ```
 
+## Usage
+```
+<tabs>
+  <tab tabTitle="Foo>
+    I am the foo content
+  </tab>
+  <tab tabTitle="Bar">
+    I am the bar content
+  </tab>
+<tabs>
+```
 ## What's next
-We would always love to hear suggestions for features & improvements - just open an issue.
+I would always love to hear suggestions for features & improvements - just open an issue.
 
 Some things on our mind down the road:
 * Add more tests
