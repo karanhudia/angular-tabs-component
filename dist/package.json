@@ -1,0 +1,25 @@
+{
+  "name": "angular-tab-component",
+  "version": "1.0.7",
+  "description": "A full featured tab component for Angular (2 and above, including 4).",
+  "main": "bundles/angular-tab-component.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular 2",
+    "angular4",
+    "angular 4"
+  ],
+  "author": "karanhudia@gmail.com",
+  "license": "FreeBSD License",
+  "peerDependencies": {
+    "@angular/core": "^4.2.4",
+    "@angular/common": "^4.2.4",
+    "rxjs": "^5.4.1",
+    "zone.js": "^0.8.12",
+    "@angular/platform-browser": "^4.2.5",
+    "@angular/forms": "^4.2.4"
+  }
+}

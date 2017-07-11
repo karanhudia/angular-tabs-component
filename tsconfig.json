@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "module": "es2015",
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@angular/*": [
+        "../node_modules/@angular/*"
+      ],
+      "rxjs/*": ["node_modules/rxjs/*"],
+      "rollup-plugin-commonjs": ["node_modules/rollup-plugin-commonjs"],
+      "rollup-plugin-node-resolve": ["node_modules/rollup-plugin-node-resolve"]
+    },
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  },
+  "files": [
+      "index.ts"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "aot",
+    "skipMetadataEmit": true
+  }
+}
