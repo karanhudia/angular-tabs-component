@@ -1,0 +1,9 @@
+node_modules
+dist
+aot
+*.ngsummary.json
+*.ngfactory.ts
+.vscode
+.idea
+.DS_Store
+npm-debug.log

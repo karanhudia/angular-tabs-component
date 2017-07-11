@@ -1,12 +1,12 @@
 {
-  "name": "angular-tab-component",
+  "name": "angular-tabs-component",
   "version": "0.0.1",
   "description": "A full featured tab component for Angular (2 and above, including 4).",
-  "main": "dist/bundles/angular-tab-component.umd.js",
+  "main": "dist/bundles/angular-tabs-component.umd.js",
   "scripts": {
     "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.js dist/index.js.map dist/LICENCE dist/README.md",
     "bundling": "rollup -c",
-    "minify": "uglifyjs dist/bundles/angular-tab-component.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/angular-tab-component.umd.min.js",
+    "minify": "uglifyjs dist/bundles/angular-tabs-component.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/angular-tabs-component.umd.min.js",
     "build": "npm run cleanup && ngc && npm run bundling && npm run minify",
     "watchit": "ngc -w"
   },
@@ -20,7 +20,6 @@
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rxjs": "^5.4.1",
-    "tsickle": "^0.23.3",
     "zone.js": "^0.8.12"
   },
   "devDependencies": {
