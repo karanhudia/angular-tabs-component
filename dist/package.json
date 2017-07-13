@@ -1,6 +1,6 @@
 {
   "name": "angular-tabs-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A full featured tab component for Angular (2 and above, including 4).",
   "main": "bundles/angular-tabs-component.umd.js",
   "homepage": "https://github.com/karanhudia/angular-tabs-component",

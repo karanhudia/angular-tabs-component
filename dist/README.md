@@ -6,7 +6,6 @@ I have used tabs so many times but i never found a tab component basic and simpl
 So, i decided to build one for Angular, with all the basic features-
 * Simple to use
 * Well Documented
-* Enable/Disable the component/tabs
 * CSS for active tab
 * Easily styled (comes with very minimal styling)
 
@@ -51,11 +50,13 @@ Add it to your @NgModule imports-
   </tab>
 <tabs>
 ```
+
 ## What's next
 I would always love to hear suggestions for features & improvements - just open an issue.
 
 Some things on our mind down the road:
 * Add more tests
 * Add more examples
+* Enable/Disable the component/tabs
 
 Please check the issues / project before starting to work on a feature / bug to make sure it's not already in progress.

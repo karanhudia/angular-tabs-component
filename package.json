@@ -16,7 +16,6 @@
     "@angular/common": "^4.2.4",
     "@angular/core": "^4.2.4",
     "@angular/forms": "^4.2.4",
-    "@angular/platform-browser": "^4.2.5",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rxjs": "^5.4.1",
