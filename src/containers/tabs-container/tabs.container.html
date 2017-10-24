@@ -1,0 +1,7 @@
+<ul class="tabs__tab-bar">
+  <li *ngFor="let tab of tabs" (click)="selectTab(tab)" class="tabs__tab" [ngClass]="{'active': tab.active == true}">
+    {{ tab.tabTitle }}
+  </li>
+</ul>
+<ng-content></ng-content>
+<div class="overlay" [style.display]="isDisabled()"></div>

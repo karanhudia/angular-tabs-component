@@ -4,10 +4,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 // Components imports
-import { TabComponent } from './components/tabs/tab.component';
+import { TabComponent } from './components';
 
 // Containers imports
-import { TabsContainer } from './containers/tabs-container/tabs.container';
+import { TabsContainer } from './containers';
 
 @NgModule({
     imports: [ CommonModule, FormsModule ],
@@ -18,7 +18,6 @@ import { TabsContainer } from './containers/tabs-container/tabs.container';
     exports: [
       TabComponent,
       TabsContainer
-    ],
-    bootstrap: [ TabsContainer ]
+    ]
 })
 export class TabModule { }

@@ -42,7 +42,7 @@ Add it to your @NgModule imports-
 ## Usage
 ```
 <tabs>
-  <tab tabTitle="Foo>
+  <tab tabTitle="Foo">
     I am the foo content
   </tab>
   <tab tabTitle="Bar">
@@ -51,12 +51,56 @@ Add it to your @NgModule imports-
 <tabs>
 ```
 
+## Options
+
+Apart from the default settings, there are a number of options that can be
+specified for the tab components. Options are specified by directly adding it to the
+element as attribute with property binding, attribute binding and event binding.
+Possible options are:
+
+  * `tabTitle` (applicable to: `tab`, property): To set the title of that tab (required).
+  * `active` (applicable to: `tab`, property): To set any tab as by default active -
+  Usage:
+    ```
+    <tabs>
+      <tab tabTitle="Foo">
+        I am the foo content
+      </tab>
+      <tab tabTitle="Bar" active="true">
+        I am the bar content
+      </tab>
+    <tabs>
+    ```
+  * `disabled` (applicable to: `tabs`, property): To set the tabs disabled.
+  Usage:
+    ```
+    <tabs disabled="true">
+      <tab tabTitle="Foo">
+        I am the foo content
+      </tab>
+      <tab tabTitle="Bar">
+        I am the bar content
+      </tab>
+    <tabs>
+    ```
+  * `currentTabChange` (applicable to: `tabs`, event): Notifies every time the tab is switched with the tab component object.
+  Usage:
+    ```
+    <tabs (currentTabChange)="notifyMe($event)">
+      <tab tabTitle="Foo">
+        I am the foo content
+      </tab>
+      <tab tabTitle="Bar">
+        I am the bar content
+      </tab>
+    <tabs>
+    ```
+
 ## What's next
 I would always love to hear suggestions for features & improvements - just open an issue.
 
 Some things on our mind down the road:
 * Add more tests
 * Add more examples
-* Enable/Disable the component/tabs
 
 Please check the issues / project before starting to work on a feature / bug to make sure it's not already in progress.

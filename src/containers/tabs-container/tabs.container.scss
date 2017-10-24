@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:host {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: calc(100vh - 20px);
+}
+.tabs__tab-bar {
+  align-self: center;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: -12px;
+  z-index: 1000;
+  border: 1px solid #c9c9c9;
+}
+.tabs__tab {
+  padding: 4px 10px;
+  display: inline-block;
+  background-color: white;
+  cursor: pointer;
+}
+.tabs__tab.active {
+  background-color: #6fbbff !important;
+  color: white;
+}
+.overlay {
+  background: #e0e0e0;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
