@@ -7,6 +7,9 @@ So, i decided to build one for Angular, with all the basic features-
 * Simple to use
 * Well Documented
 * CSS for active tab
+* NGC compatible
+* Supports AOT
+* Supports disabling and setting active tab
 * Easily styled (comes with very minimal styling)
 
 If you like this, support the project by starring it!
