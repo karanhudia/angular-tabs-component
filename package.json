@@ -1,6 +1,6 @@
 {
   "name": "angular-tabs-component",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A full featured tab component for Angular (2 and above, including 4).",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
