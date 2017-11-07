@@ -25,7 +25,7 @@ npm install angular-tabs-component
 
 Include the library into your app module-
 ```
-import 'TabModule' from 'angular-tabs-component';
+import { TabModule } from 'angular-tabs-component';
 ```
 
 Add it to your @NgModule imports-
